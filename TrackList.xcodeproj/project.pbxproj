@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		3CE449822906F814006144D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE449812906F814006144D9 /* AppDelegate.swift */; };
 		3CE449842906F814006144D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE449832906F814006144D9 /* SceneDelegate.swift */; };
-		3CE449862906F814006144D9 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE449852906F814006144D9 /* TrackViewController.swift */; };
 		3CE449892906F814006144D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE449872906F814006144D9 /* Main.storyboard */; };
 		3CE4498B2906F817006144D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE4498A2906F817006144D9 /* Assets.xcassets */; };
 		3CE4498E2906F817006144D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE4498C2906F817006144D9 /* LaunchScreen.storyboard */; };
+		3CE449962907E191006144D9 /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE449952907E191006144D9 /* TrackListTableViewController.swift */; };
+		3CE449982907E6B2006144D9 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE449972907E6B2006144D9 /* Track.swift */; };
+		3CE4499A2908248E006144D9 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE449992908248E006144D9 /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CE4497E2906F814006144D9 /* TrackList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE449812906F814006144D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CE449832906F814006144D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CE449852906F814006144D9 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		3CE449882906F814006144D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CE4498A2906F817006144D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE4498D2906F817006144D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE4498F2906F817006144D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE449952907E191006144D9 /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
+		3CE449972907E6B2006144D9 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		3CE449992908248E006144D9 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		3CE449802906F814006144D9 /* TrackList */ = {
 			isa = PBXGroup;
 			children = (
+				3CE449952907E191006144D9 /* TrackListTableViewController.swift */,
 				3CE449812906F814006144D9 /* AppDelegate.swift */,
 				3CE449832906F814006144D9 /* SceneDelegate.swift */,
-				3CE449852906F814006144D9 /* TrackViewController.swift */,
 				3CE449872906F814006144D9 /* Main.storyboard */,
+				3CE449992908248E006144D9 /* TrackDetailsViewController.swift */,
+				3CE449972907E6B2006144D9 /* Track.swift */,
 				3CE4498A2906F817006144D9 /* Assets.xcassets */,
 				3CE4498C2906F817006144D9 /* LaunchScreen.storyboard */,
 				3CE4498F2906F817006144D9 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE449862906F814006144D9 /* TrackViewController.swift in Sources */,
 				3CE449822906F814006144D9 /* AppDelegate.swift in Sources */,
 				3CE449842906F814006144D9 /* SceneDelegate.swift in Sources */,
+				3CE4499A2908248E006144D9 /* TrackDetailsViewController.swift in Sources */,
+				3CE449962907E191006144D9 /* TrackListTableViewController.swift in Sources */,
+				3CE449982907E6B2006144D9 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
